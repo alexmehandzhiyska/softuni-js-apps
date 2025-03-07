@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>My Cookbook</title>
+    <link rel="stylesheet" href="static/site.css" />
+    <link rel="stylesheet" href="static/recipe.css" />
+    <link rel="stylesheet" href="static/form.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>My Cookbook</h1>
+      <nav>
+        <a href="/">Catalog</a>
+        <div id="user">
+          <a href="/create">Create Recipe</a>
+          <a href="/logout">Logout</a>
+        </div>
+        <div id="guest">
+          <a href="/login">Login</a>
+          <a href="/register">Register</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+    </main>
+
+    <section class="view-section" id="home-section">
+        <p style="color: white">Loading...</p>
+    </section>
+
+    <script src="src/app.js" type="module"></script>
+  </body>
+</html>
