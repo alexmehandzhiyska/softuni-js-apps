@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Odibee+Sans&display=swap');
+
+
+#shows {
+  display: flex;
+  align-items: center;
+  justify-content:center ;
+  flex-wrap: wrap;
+  margin-top: -50px;
+
+}
+ h2 {
+  text-align: center;
+  font-size: 50px;
+  color: rgb(20, 136, 230);
+  text-shadow: 3px 3px black;
+  margin-top: -74px;
+}
+
+#no-show{
+  margin-top: 20px;
+}
+h3{
+  font-size: 22px;
+  font-family: "Odibee Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.show {
+  font-family: "Odibee Sans", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 27vw;
+  height: 65vh;
+  padding-bottom: 1rem;
+  margin: 10px auto;
+  background-image: repeating-radial-gradient(   
+    circle closest-corner at 22% 100px,
+    rgba(20, 136, 230, 0.72),
+    rgb(20, 136, 230) 50px,
+    #9b9a9b 50px,
+    #7b787d 100px
+    );
+    border-radius: 15px;
+
+}
+
+.show img {
+border: 2px solid black;
+width: 23vw;
+height: 30vh;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.show-info{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 22vw;
+  padding: 10px 19px;
+  height: 26vh;
+  margin-top: 20px;
+  background-color: rgba(0, 0, 0, 0.622);
+  border-radius: 15px;
+}
+
+.show .title {
+  color: rgb(20, 136, 230);
+  text-shadow: 1px 1px rgb(0, 0, 0);
+  font-size: 33px;
+}
+
+.details-btn {
+  margin-top: 4px;
+  text-decoration: none;
+  font-size: 21px;
+  width: 160px;
+  border-radius: 3px;
+  text-align: center;
+  color: rgb(20, 136, 230);
+  background: rgb(29, 28, 28);
+  text-shadow: 1px 1px black;
+}
+.details-btn:hover {
+  background: rgb(20, 136, 230);
+  color: black;
+  text-shadow: none;
+
+}
+.show p {
+ width: 25vw;
+  font-size: 18px;
+font-weight: 800;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px rgb(62, 62, 61);
+  margin: 0;
+  letter-spacing: 2px;
+}
+
+@media (max-width: 1000px) {
+  h2 {
+    font-size: 25px; 
+  }
+
+  .show {
+    width: 40%; 
+  }
+
+  .show-info {
+    width: 40%;
+  }
+
+  .details-btn {
+    font-size: 12px; 
+    width: 50px;
+  }
+
+  .show p {
+    font-size: 9px; 
+  }
+
+  .show img {
+    height:25vh;
+  }
+}
